@@ -30,7 +30,6 @@ public class Reference
 
 
     //Message.java
-    public static final String MESSAGE_ERROR = "Message error";
     //public static final String
     //public static final String
 }

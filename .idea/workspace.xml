@@ -2,14 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="420b29e7-bb4d-4257-87f1-0c7efdf8aeb4" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/spirit1292/projectSilia/Project_Silia.java" afterPath="$PROJECT_DIR$/src/main/java/spirit1292/projectSilia/Project_Silia.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project_Silia/main/java/spirit1292/projectSilia/listeners/WindowMain/WindowMainActionListeners.class" afterPath="$PROJECT_DIR$/out/production/Project_Silia/main/java/spirit1292/projectSilia/listeners/WindowMain/WindowMainActionListeners.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project_Silia/main/java/spirit1292/projectSilia/listeners/WindowMain/WindowMainListeners.class" afterPath="$PROJECT_DIR$/out/production/Project_Silia/main/java/spirit1292/projectSilia/listeners/WindowMain/WindowMainListeners.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project_Silia/main/java/spirit1292/projectSilia/listeners/WindowMain/WindowMainMouseListeners.class" afterPath="$PROJECT_DIR$/out/production/Project_Silia/main/java/spirit1292/projectSilia/listeners/WindowMain/WindowMainMouseListeners.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project_Silia/main/java/spirit1292/projectSilia/procedures/Message.class" afterPath="$PROJECT_DIR$/out/production/Project_Silia/main/java/spirit1292/projectSilia/procedures/Message.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project_Silia/main/java/spirit1292/projectSilia/procedures/ScreenResolution.class" afterPath="$PROJECT_DIR$/out/production/Project_Silia/main/java/spirit1292/projectSilia/procedures/ScreenResolution.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project_Silia/main/java/spirit1292/projectSilia/settings/AppSettings.class" afterPath="$PROJECT_DIR$/out/production/Project_Silia/main/java/spirit1292/projectSilia/settings/AppSettings.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project_Silia/main/java/spirit1292/projectSilia/settings/LookAndFeel.class" afterPath="$PROJECT_DIR$/out/production/Project_Silia/main/java/spirit1292/projectSilia/settings/LookAndFeel.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project_Silia/main/java/spirit1292/projectSilia/settings/Reference.class" afterPath="$PROJECT_DIR$/out/production/Project_Silia/main/java/spirit1292/projectSilia/settings/Reference.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project_Silia/main/java/spirit1292/projectSilia/windows/WindowMain.class" afterPath="$PROJECT_DIR$/out/production/Project_Silia/main/java/spirit1292/projectSilia/windows/WindowMain.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project_Silia/main/resources/lang/language_en_US.properties" afterPath="$PROJECT_DIR$/out/production/Project_Silia/main/resources/lang/language_en_US.properties" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project_Silia/main/resources/lang/language_ru_RU.properties" afterPath="$PROJECT_DIR$/out/production/Project_Silia/main/resources/lang/language_ru_RU.properties" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/spirit1292/projectSilia/listeners/WindowMain/WindowMainActionListeners.java" afterPath="$PROJECT_DIR$/src/main/java/spirit1292/projectSilia/listeners/WindowMain/WindowMainActionListeners.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/spirit1292/projectSilia/listeners/WindowMain/WindowMainListeners.java" afterPath="$PROJECT_DIR$/src/main/java/spirit1292/projectSilia/listeners/WindowMain/WindowMainListeners.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/spirit1292/projectSilia/listeners/WindowMain/WindowMainMouseListeners.java" afterPath="$PROJECT_DIR$/src/main/java/spirit1292/projectSilia/listeners/WindowMain/WindowMainMouseListeners.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/spirit1292/projectSilia/procedures/Close.java" afterPath="$PROJECT_DIR$/src/main/java/spirit1292/projectSilia/procedures/Close.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/spirit1292/projectSilia/procedures/Message.java" afterPath="$PROJECT_DIR$/src/main/java/spirit1292/projectSilia/procedures/Message.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/spirit1292/projectSilia/procedures/ScreenResolution.java" afterPath="$PROJECT_DIR$/src/main/java/spirit1292/projectSilia/procedures/ScreenResolution.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/spirit1292/projectSilia/procedures/StatusBar.java" afterPath="$PROJECT_DIR$/src/main/java/spirit1292/projectSilia/procedures/StatusBar.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/spirit1292/projectSilia/settings/AppLang.java" afterPath="$PROJECT_DIR$/src/main/java/spirit1292/projectSilia/settings/AppLang.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/spirit1292/projectSilia/settings/AppSettings.java" afterPath="$PROJECT_DIR$/src/main/java/spirit1292/projectSilia/settings/AppSettings.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/spirit1292/projectSilia/settings/LookAndFeel.java" afterPath="$PROJECT_DIR$/src/main/java/spirit1292/projectSilia/settings/LookAndFeel.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/spirit1292/projectSilia/settings/Reference.java" afterPath="$PROJECT_DIR$/src/main/java/spirit1292/projectSilia/settings/Reference.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/spirit1292/projectSilia/windows/WindowMain.java" afterPath="$PROJECT_DIR$/src/main/java/spirit1292/projectSilia/windows/WindowMain.java" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/lang/language_en_US.properties" afterPath="$PROJECT_DIR$/src/main/resources/lang/language_en_US.properties" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/lang/language_ru_RU.properties" afterPath="$PROJECT_DIR$/src/main/resources/lang/language_ru_RU.properties" />
@@ -27,56 +40,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="WindowMain.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/spirit1292/projectSilia/windows/WindowMain.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="37">
-              <caret line="25" column="72" lean-forward="false" selection-start-line="25" selection-start-column="72" selection-end-line="25" selection-end-column="72" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#3567#3568#0" expanded="true" />
-                <element signature="e#3589#3590#0" expanded="true" />
-                <element signature="e#3635#3636#0" expanded="true" />
-                <element signature="e#3667#3668#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="language_en_US.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/lang/language_en_US.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="ResourceBundle">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="language_ru_RU.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/lang/language_ru_RU.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-210">
-              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="ResourceBundle">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Close.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/spirit1292/projectSilia/procedures/Close.java">
+      <file leaf-file-name="AppSettings.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/spirit1292/projectSilia/settings/AppSettings.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
-              <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <caret line="5" column="53" lean-forward="false" selection-start-line="5" selection-start-column="53" selection-end-line="5" selection-end-column="53" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -90,6 +59,11 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>WIN_MAIN_CREATED</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -113,25 +87,25 @@
         <option value="$PROJECT_DIR$/src/Project_Silia.java" />
         <option value="$PROJECT_DIR$/src/reference/Reference.java" />
         <option value="$PROJECT_DIR$/src/main/java/spirit1292/projectSilia/reference/Reference.java" />
-        <option value="$PROJECT_DIR$/src/main/java/spirit1292/projectSilia/settings/Reference.java" />
-        <option value="$PROJECT_DIR$/src/main/java/spirit1292/projectSilia/settings/AppSettings.java" />
-        <option value="$PROJECT_DIR$/src/main/java/spirit1292/projectSilia/procedures/Close.java" />
-        <option value="$PROJECT_DIR$/src/main/java/spirit1292/projectSilia/procedures/Message.java" />
-        <option value="$PROJECT_DIR$/src/main/java/spirit1292/projectSilia/procedures/ScreenResolution.java" />
         <option value="$PROJECT_DIR$/src/main/java/spirit1292/projectSilia/procedures/StatusBar.java" />
         <option value="$PROJECT_DIR$/src/main/java/spirit1292/projectSilia/settings/AppLang.java" />
-        <option value="$PROJECT_DIR$/src/main/java/spirit1292/projectSilia/settings/LookAndFeel.java" />
-        <option value="$PROJECT_DIR$/src/main/java/spirit1292/projectSilia/Project_Silia.java" />
-        <option value="$PROJECT_DIR$/src/main/java/spirit1292/projectSilia/listeners/WindowMain/WindowMainActionListeners.java" />
+        <option value="$PROJECT_DIR$/src/main/java/spirit1292/projectSilia/settings/Reference.java" />
+        <option value="$PROJECT_DIR$/src/main/java/spirit1292/projectSilia/procedures/ScreenResolution.java" />
         <option value="$PROJECT_DIR$/src/main/java/spirit1292/projectSilia/listeners/WindowMain/WindowMainMouseListeners.java" />
-        <option value="$PROJECT_DIR$/src/main/java/spirit1292/projectSilia/listeners/WindowMain/WindowMainListeners.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/lang/language_ru_RU.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/spirit1292/projectSilia/listeners/WindowMain/WindowMainActionListeners.java" />
+        <option value="$PROJECT_DIR$/src/main/java/spirit1292/projectSilia/Project_Silia.java" />
+        <option value="$PROJECT_DIR$/src/main/java/spirit1292/projectSilia/settings/LookAndFeel.java" />
         <option value="$PROJECT_DIR$/src/main/resources/lang/language_en_US.properties" />
+        <option value="$PROJECT_DIR$/src/main/resources/lang/language_ru_RU.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/spirit1292/projectSilia/procedures/Close.java" />
+        <option value="$PROJECT_DIR$/src/main/java/spirit1292/projectSilia/procedures/Message.java" />
         <option value="$PROJECT_DIR$/src/main/java/spirit1292/projectSilia/windows/WindowMain.java" />
+        <option value="$PROJECT_DIR$/src/main/java/spirit1292/projectSilia/listeners/WindowMain/WindowMainListeners.java" />
+        <option value="$PROJECT_DIR$/src/main/java/spirit1292/projectSilia/settings/AppSettings.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="-7" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
@@ -187,30 +161,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="projectSilia" type="462c0819:PsiDirectoryNode" />
               <item name="WindowMain" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Project_Silia" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Project_Silia" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="projectSilia" type="462c0819:PsiDirectoryNode" />
-              <item name="procedures" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Project_Silia" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Project_Silia" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="projectSilia" type="462c0819:PsiDirectoryNode" />
-              <item name="settings" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Project_Silia" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Project_Silia" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="projectSilia" type="462c0819:PsiDirectoryNode" />
-              <item name="windows" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Project_Silia" type="b2602c69:ProjectViewProjectNode" />
@@ -391,7 +341,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="974" height="1047" extended-state="1" />
+    <frame x="-7" y="0" width="974" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -403,7 +353,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32976446" sideWeight="0.50835073" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32976446" sideWeight="0.49164927" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32976446" sideWeight="0.49164927" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -469,10 +419,8 @@
           <caret line="10" column="58" lean-forward="false" selection-start-line="10" selection-start-column="58" selection-end-line="10" selection-end-column="58" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3567#3568#0" expanded="true" />
-            <element signature="e#3589#3590#0" expanded="true" />
-            <element signature="e#3635#3636#0" expanded="true" />
-            <element signature="e#3667#3668#0" expanded="true" />
+            <element signature="e#4574#4575#0" expanded="true" />
+            <element signature="e#4596#4597#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -550,81 +498,86 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/spirit1292/projectSilia/procedures/Message.java">
+    <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/java.base/java/util/ResourceBundle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="47" column="30" lean-forward="false" selection-start-line="47" selection-start-column="30" selection-end-line="47" selection-end-column="30" />
+        <state relative-caret-position="17">
+          <caret line="500" column="0" lean-forward="false" selection-start-line="500" selection-start-column="0" selection-end-line="500" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/spirit1292/projectSilia/procedures/ScreenResolution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="12" lean-forward="false" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/spirit1292/projectSilia/procedures/StatusBar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="13" column="5" lean-forward="false" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-          <folding>
-            <element signature="e#285#286#0" expanded="true" />
-            <element signature="e#323#324#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/spirit1292/projectSilia/settings/AppSettings.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="7" lean-forward="false" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/spirit1292/projectSilia/settings/LookAndFeel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="16" column="24" lean-forward="false" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#20278#20279#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/spirit1292/projectSilia/settings/Reference.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-17">
-          <caret line="9" column="32" lean-forward="true" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+        <state relative-caret-position="527">
+          <caret line="31" column="18" lean-forward="false" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/spirit1292/projectSilia/procedures/StatusBar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="5" lean-forward="false" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#285#286#0" expanded="true" />
+            <element signature="e#323#324#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/spirit1292/projectSilia/Project_Silia.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        <state relative-caret-position="374">
+          <caret line="22" column="42" lean-forward="false" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/java.base/java/util/ResourceBundle.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/spirit1292/projectSilia/settings/LookAndFeel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="500" column="0" lean-forward="false" selection-start-line="500" selection-start-column="0" selection-end-line="500" selection-end-column="0" />
+        <state relative-caret-position="306">
+          <caret line="18" column="20" lean-forward="false" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
           <folding>
-            <element signature="e#20278#20279#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/lang/language_ru_RU.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="60" column="61" lean-forward="false" selection-start-line="60" selection-start-column="61" selection-end-line="60" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="ResourceBundle">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/spirit1292/projectSilia/procedures/ScreenResolution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/lang/language_en_US.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="ResourceBundle">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/spirit1292/projectSilia/settings/AppLang.java">
@@ -637,72 +590,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/spirit1292/projectSilia/listeners/WindowMain/WindowMainMouseListeners.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="39" lean-forward="false" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#364#365#0" expanded="true" />
-            <element signature="e#385#386#0" expanded="true" />
-            <element signature="e#436#437#0" expanded="true" />
-            <element signature="e#480#481#0" expanded="true" />
-            <element signature="e#545#546#0" expanded="true" />
-            <element signature="e#582#583#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/spirit1292/projectSilia/listeners/WindowMain/WindowMainActionListeners.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/spirit1292/projectSilia/listeners/WindowMain/WindowMainListeners.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="38" column="54" lean-forward="true" selection-start-line="38" selection-start-column="54" selection-end-line="38" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#442#443#0" expanded="true" />
-            <element signature="e#525#526#0" expanded="true" />
-            <element signature="e#766#767#0" expanded="true" />
-            <element signature="e#849#850#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/lang/language_en_US.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="ResourceBundle">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/lang/language_ru_RU.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-210">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="ResourceBundle">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/spirit1292/projectSilia/procedures/Close.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        <state relative-caret-position="445">
+          <caret line="37" column="101" lean-forward="false" selection-start-line="37" selection-start-column="101" selection-end-line="37" selection-end-column="101" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/spirit1292/projectSilia/procedures/Message.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="58" column="31" lean-forward="false" selection-start-line="58" selection-start-column="31" selection-end-line="58" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -711,15 +612,55 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/spirit1292/projectSilia/windows/WindowMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="37">
-          <caret line="25" column="72" lean-forward="false" selection-start-line="25" selection-start-column="72" selection-end-line="25" selection-end-column="72" />
+        <state relative-caret-position="224">
+          <caret line="91" column="48" lean-forward="false" selection-start-line="91" selection-start-column="48" selection-end-line="91" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3567#3568#0" expanded="true" />
-            <element signature="e#3589#3590#0" expanded="true" />
-            <element signature="e#3635#3636#0" expanded="true" />
-            <element signature="e#3667#3668#0" expanded="true" />
+            <element signature="e#4574#4575#0" expanded="true" />
+            <element signature="e#4596#4597#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/spirit1292/projectSilia/listeners/WindowMain/WindowMainListeners.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="49" column="44" lean-forward="false" selection-start-line="49" selection-start-column="44" selection-end-line="49" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/spirit1292/projectSilia/listeners/WindowMain/WindowMainActionListeners.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/spirit1292/projectSilia/listeners/WindowMain/WindowMainMouseListeners.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#304#305#0" expanded="true" />
+            <element signature="e#325#326#0" expanded="true" />
+            <element signature="e#376#377#0" expanded="true" />
+            <element signature="e#420#421#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/spirit1292/projectSilia/settings/AppSettings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="53" lean-forward="false" selection-start-line="5" selection-start-column="53" selection-end-line="5" selection-end-column="53" />
+          <folding />
         </state>
       </provider>
     </entry>

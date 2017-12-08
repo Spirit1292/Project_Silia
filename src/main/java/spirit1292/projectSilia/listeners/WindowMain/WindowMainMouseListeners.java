@@ -1,7 +1,5 @@
 package main.java.spirit1292.projectSilia.listeners.WindowMain;
 
-import main.java.spirit1292.projectSilia.settings.AppLang;
-
 import javax.swing.*;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;

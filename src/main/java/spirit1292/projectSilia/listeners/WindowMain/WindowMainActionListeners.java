@@ -1,6 +1,5 @@
 package main.java.spirit1292.projectSilia.listeners.WindowMain;
 
-
 import main.java.spirit1292.projectSilia.procedures.Close;
 import main.java.spirit1292.projectSilia.windows.WindowMain;
 
