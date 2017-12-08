@@ -1,44 +1,34 @@
 package main.java.spirit1292.projectSilia.settings;
 
 import main.java.spirit1292.projectSilia.procedures.Message;
-import main.java.spirit1292.projectSilia.settings.AppLang;
-import main.java.spirit1292.projectSilia.settings.Reference;
 
 import javax.swing.*;
 
-public class LookAndFeel
-{
-    public static void main(String[] args)
-    {
-        try
-        {
-            if (Reference.LOOKANDFEEL_SHORT_JAVA.equals(UIManager.getLookAndFeel().getName()))
-            {
+public class LookAndFeel {
+    public static void main(String[] args) {
+        try {
+            if (Reference.LOOKANDFEEL_SHORT_JAVA.equals(UIManager.getLookAndFeel().getName())) {
                 UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
                 new Message().Show(AppLang.Lang("MESSAGE_LOOKANDFEEL_INSTALL_DONE") + " " +
                         UIManager.getLookAndFeel().getName(), null);
             }
-            else
-            {
+            else {
                 new Message().Show(AppLang.Lang("MESSAGE_LOOKANDFEEL_INSTALL_CANCEL") + " " +
                         UIManager.getLookAndFeel().getName(), null);
             }
         }
 
-        catch (UnsupportedLookAndFeelException ulafex)
-        {
+        catch (UnsupportedLookAndFeelException ulafex) {
             new Message().Show(AppLang.Lang("MESSAGE_LOOKANDFEEL_ERROR_UNSUPPORTED"), null);
             new Message().Show(AppLang.Lang("MESSAGE_LOOKANDFEEL_CURRENT") + " " +
                     UIManager.getLookAndFeel().getDescription(), ulafex);
         }
 
-        catch (IllegalAccessException iaex)
-        {
+        catch (IllegalAccessException iaex) {
             // handle exception
         }
 
-        catch (Exception ex)
-        {
+        catch (Exception ex) {
             new Message().Show(AppLang.Lang("MESSAGE_LOOKANDFEEL_ERROR"), ex);
         }
     }

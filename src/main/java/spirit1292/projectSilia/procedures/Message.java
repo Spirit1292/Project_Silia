@@ -32,8 +32,7 @@ public class Message
                         + ")"
                         + "\n";
             }
-            else
-            {
+            else {
                 TerminalMessage = "("
                         + Time.format(Date)
                         + ")"
@@ -46,8 +45,7 @@ public class Message
 
             System.out.print(TerminalMessage);
         }
-        catch (Exception ex1)
-        {
+        catch (Exception ex1) {
             System.out.print(MESSAGE_ERROR + " (" + ErrorMessage + ")");
         }
     }

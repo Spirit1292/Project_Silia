@@ -5,8 +5,7 @@ import javax.swing.*;
 
 public class Close
 {
-    public static void main(String[] args)
-    {
+    public static void main(String[] args) {
         int i = JOptionPane.showConfirmDialog(
                 null,
                 AppLang.Lang("MESSAGE_PROCEDURE_CLOSE_QUESTION_FIRST"),
@@ -14,23 +13,18 @@ public class Close
                 JOptionPane.YES_NO_OPTION,
                 JOptionPane.INFORMATION_MESSAGE);
 
-        switch (i)
-        {
-            case JOptionPane.YES_OPTION:
-            {
+        switch (i) {
+            case JOptionPane.YES_OPTION: {
                 new Message().Show(AppLang.Lang("MESSAGE_PROCEDURE_CLOSE_MESSAGE"), null);
-                try
-                {
+                try {
                     Thread.sleep(1000);
                     System.exit(0);
                 }
-                catch (InterruptedException ie)
-                {
+                catch (InterruptedException ie) {
                     new Message().Show(AppLang.Lang("MESSAGE_PROCEDURE_CLOSE_ERROR"), ie);
                 }
             }
-            case JOptionPane.NO_OPTION:
-            {
+            case JOptionPane.NO_OPTION: {
                 return;
             }
         }
