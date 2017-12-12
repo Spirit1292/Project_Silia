@@ -14,8 +14,7 @@ public class AppLang {
             currentLocale = new Locale(language);
             currentResourceBundle = ResourceBundle.getBundle(langPath.toString(), currentLocale);
             String Text = currentResourceBundle.getString(unlocalizedName);
-            String Text2 = new String(Text.getBytes("ISO-8859-1"), "UTF-8");
-            return Text2;
+            return Text;
         }
         catch (Exception ex2) {
             ex2.printStackTrace();

@@ -4,13 +4,17 @@ import main.java.spirit1292.projectSilia.settings.AppLang;
 import javax.swing.*;
 
 import static main.java.spirit1292.projectSilia.settings.AppSettings.DEBUG_MODE_STANDART;
+import static main.java.spirit1292.projectSilia.settings.SystemMessages.*;
 
 public class Close
 {
     public static void main(String[] args) {
         if (DEBUG_MODE_STANDART) {
-            new Message().Show(AppLang.Lang("MESSAGE_PROCEDURE_CLOSE_MESSAGE_CALLING"), null);
+            new Message().Show(MESSAGE_PROCEDURE_CLOSE_MESSAGE_CALLING, null);
         }
+
+        UIManager.put("OptionPane.yesButtonText"   , AppLang.Lang("MESSAGE_PROCEDURE_CLOSE_QUESTION_YES")   );
+        UIManager.put("OptionPane.noButtonText"    , AppLang.Lang("MESSAGE_PROCEDURE_CLOSE_QUESTION_NO")   );
 
         int i = JOptionPane.showConfirmDialog(
                 null,
@@ -23,19 +27,19 @@ public class Close
             switch (i) {
                 case JOptionPane.YES_OPTION: {
                     if (DEBUG_MODE_STANDART) {
-                        new Message().Show(AppLang.Lang("MESSAGE_PROCEDURE_CLOSE_MESSAGE_YES"), null);
+                        new Message().Show(MESSAGE_PROCEDURE_CLOSE_MESSAGE_YES, null);
                     }
                     try {
                         Thread.sleep(1000);
                         System.exit(0);
                     }
                     catch (InterruptedException ie) {
-                        new Message().Show(AppLang.Lang("MESSAGE_PROCEDURE_CLOSE_ERROR"), ie);
+                        new Message().Show(MESSAGE_PROCEDURE_CLOSE_ERROR, ie);
                     }
                 }
                 case JOptionPane.NO_OPTION: {
                     if (DEBUG_MODE_STANDART) {
-                        new Message().Show(AppLang.Lang("MESSAGE_PROCEDURE_CLOSE_MESSAGE_NO"), null);
+                        new Message().Show(MESSAGE_PROCEDURE_CLOSE_MESSAGE_NO, null);
                     }
                     return;
                 }
@@ -43,7 +47,7 @@ public class Close
 
         }
         catch (Exception ex) {
-            new Message().Show(AppLang.Lang("MESSAGE_PROCEDURE_CLOSE_ERROR"), ex);
+            new Message().Show(MESSAGE_PROCEDURE_CLOSE_ERROR, ex);
         }
 
     }

@@ -1,7 +1,7 @@
 package main.java.spirit1292.projectSilia.procedures;
 
-import main.java.spirit1292.projectSilia.settings.AppLang;
 import java.awt.*;
+import static main.java.spirit1292.projectSilia.settings.SystemMessages.SCREEN_RES_TEXT;
 
 public class ScreenResolution
 {
@@ -19,6 +19,6 @@ public class ScreenResolution
     }
 
     public static String ScreenResString() {
-            return AppLang.Lang("SCREEN_RES_TEXT") + " " + GetHorizontalRes() + ":" + GetVerticalRes();
+            return SCREEN_RES_TEXT + " " + GetHorizontalRes() + ":" + GetVerticalRes();
     }
 }

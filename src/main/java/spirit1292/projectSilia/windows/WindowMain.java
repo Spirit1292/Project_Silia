@@ -1,16 +1,18 @@
 package main.java.spirit1292.projectSilia.windows;
 
 import main.java.spirit1292.projectSilia.Project_Silia;
-import main.java.spirit1292.projectSilia.procedures.Message;
-import main.java.spirit1292.projectSilia.procedures.ScreenResolution;
 import main.java.spirit1292.projectSilia.listeners.WindowMain.WindowMainActionListeners;
 import main.java.spirit1292.projectSilia.listeners.WindowMain.WindowMainListeners;
+import main.java.spirit1292.projectSilia.procedures.Message;
+import main.java.spirit1292.projectSilia.procedures.ScreenResolution;
 import main.java.spirit1292.projectSilia.procedures.StatusBar;
 import main.java.spirit1292.projectSilia.settings.AppLang;
+
 import javax.swing.*;
 import java.awt.*;
-import static main.java.spirit1292.projectSilia.settings.AppSettings.DEBUG_MODE_STANDART;
+
 import static main.java.spirit1292.projectSilia.settings.Reference.*;
+import static main.java.spirit1292.projectSilia.settings.SystemMessages.*;
 
 public class WindowMain extends JFrame {
     public static StatusBar statusBar;
@@ -30,10 +32,10 @@ public class WindowMain extends JFrame {
             setIconImage(new ImageIcon(APP_ICON_LOCATION + APP_ICON_NAME).getImage());
             setFont(new Font(Project_Silia.fontName, Font.PLAIN, Project_Silia.fontSize));
             getContentPane().setBackground(Color.DARK_GRAY);
-            new Message().ShowDebugStandart(AppLang.Lang("WIN_MAIN_BASE_CREATED"), null);
+            new Message().ShowDebugStandart(WIN_MAIN_BASE_CREATED, null);
         }
         catch (Exception ex1) {
-            new Message().Show(AppLang.Lang("WIN_MAIN_BASE_ERROR"), ex1);
+            new Message().Show(WIN_MAIN_BASE_ERROR, ex1);
         }
         //~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
         try {
@@ -57,15 +59,15 @@ public class WindowMain extends JFrame {
 
             getContentPane().add(statusBar, java.awt.BorderLayout.SOUTH);
             pack();
-                new Message().ShowDebugStandart(AppLang.Lang("WIN_MAIN_ITEMS_ADDING_DONE"), null);
+                new Message().ShowDebugStandart(WIN_MAIN_ITEMS_ADDING_DONE, null);
         }
         catch (Exception ex3) {
-            new Message().Show(AppLang.Lang("WIN_MAIN_ITEMS_ADDING_ERROR"), ex3);
+            new Message().Show(WIN_MAIN_ITEMS_ADDING_ERROR, ex3);
         }
         //~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
         setLocationRelativeTo(null);
         setVisible(true);
-            new Message().ShowDebugStandart(AppLang.Lang("WIN_MAIN_CREATED"), null);
+            new Message().ShowDebugStandart(WIN_MAIN_CREATED, null);
     }
 
     public void ActionListeners()
@@ -74,11 +76,11 @@ public class WindowMain extends JFrame {
         try
         {
             exit.addActionListener(WindowMainActionListeners.exit);
-                new Message().ShowDebugStandart(AppLang.Lang("WIN_MAIN_ADD_ACTION_LISTENERS_DONE"), null);
+                new Message().ShowDebugStandart(WIN_MAIN_ADD_ACTION_LISTENERS_DONE, null);
         }
         catch (Exception ex)
         {
-            new Message().Show(AppLang.Lang("WIN_MAIN_ADD_ACTION_LISTENERS_ERROR"), ex);
+            new Message().Show(WIN_MAIN_ADD_ACTION_LISTENERS_ERROR, ex);
         }
         //~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
     }
@@ -89,11 +91,11 @@ public class WindowMain extends JFrame {
         try
         {
             super.addWindowListener(new WindowMainListeners());
-                new Message().ShowDebugStandart(AppLang.Lang("WIN_MAIN_ADD_WINDOW_LISTENERS_DONE"), null);
+                new Message().ShowDebugStandart(WIN_MAIN_ADD_WINDOW_LISTENERS_DONE, null);
         }
         catch (Exception ex)
         {
-            new Message().Show(AppLang.Lang("WIN_MAIN_ADD_WINDOW_LISTENERS_ERROR"), ex);
+            new Message().Show(WIN_MAIN_ADD_WINDOW_LISTENERS_ERROR, ex);
         }
         //~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
     }

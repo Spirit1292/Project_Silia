@@ -23,15 +23,6 @@ public class Reference
     public static final String LOOKANDFEEL_SHORT_MOTIF = "CDE/Motif";
     //public static final String
     //public static final String
-
-    //Project_Silia.java
-    //public static final String
-    //public static final String
-
-
-    //Message.java
-    //public static final String
-    //public static final String
 }
 
 

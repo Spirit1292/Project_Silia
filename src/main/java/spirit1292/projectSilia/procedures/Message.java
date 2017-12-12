@@ -1,11 +1,12 @@
 package main.java.spirit1292.projectSilia.procedures;
 
-import main.java.spirit1292.projectSilia.settings.AppLang;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
 import static main.java.spirit1292.projectSilia.settings.AppSettings.DEBUG_MODE_EXTENDED;
 import static main.java.spirit1292.projectSilia.settings.AppSettings.DEBUG_MODE_STANDART;
+import static main.java.spirit1292.projectSilia.settings.SystemMessages.MESSAGE_ERROR;
+import static main.java.spirit1292.projectSilia.settings.SystemMessages.MESSAGE_TITLE;
 
 public class Message
 {
@@ -23,7 +24,7 @@ public class Message
                         + Time.format(Date)
                         + ")"
                         + " "
-                        + AppLang.Lang("MESSAGE_TITLE")
+                        + MESSAGE_TITLE
                         + " "
                         + Message
                         + "\n"
@@ -37,7 +38,7 @@ public class Message
                         + Time.format(Date)
                         + ")"
                         + " "
-                        + AppLang.Lang("MESSAGE_TITLE")
+                        + MESSAGE_TITLE
                         + " "
                         + Message
                         + "\n";
@@ -46,7 +47,7 @@ public class Message
             System.out.print(TerminalMessage);
         }
         catch (Exception ex1) {
-            System.out.print(AppLang.Lang("MESSAGE_ERROR") + " (" + ErrorMessage + ")");
+            System.out.print(MESSAGE_ERROR + " (" + ErrorMessage + ") ");
         }
     }
 
