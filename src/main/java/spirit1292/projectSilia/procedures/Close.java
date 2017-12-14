@@ -1,20 +1,19 @@
 package main.java.spirit1292.projectSilia.procedures;
 
-import main.java.spirit1292.projectSilia.settings.AppLang;
 import javax.swing.*;
 
 import static main.java.spirit1292.projectSilia.settings.AppSettings.DEBUG_MODE_STANDART;
-import static main.java.spirit1292.projectSilia.settings.SystemMessages.*;
+import static main.java.spirit1292.projectSilia.references.SystemMessages.*;
 
 public class Close
 {
-    public static void main(String[] args) {
+    public static void main() {
         if (DEBUG_MODE_STANDART) {
             new Message().Show(MESSAGE_PROCEDURE_CLOSE_MESSAGE_CALLING, null);
         }
 
-        UIManager.put("OptionPane.yesButtonText"   , AppLang.Lang("MESSAGE_PROCEDURE_CLOSE_QUESTION_YES")   );
-        UIManager.put("OptionPane.noButtonText"    , AppLang.Lang("MESSAGE_PROCEDURE_CLOSE_QUESTION_NO")   );
+        UIManager.put("OptionPane.yesButtonText", AppLang.Lang("MESSAGE_PROCEDURE_CLOSE_QUESTION_YES"));
+        UIManager.put("OptionPane.noButtonText", AppLang.Lang("MESSAGE_PROCEDURE_CLOSE_QUESTION_NO"));
 
         int i = JOptionPane.showConfirmDialog(
                 null,

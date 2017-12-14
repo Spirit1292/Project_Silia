@@ -1,7 +1,7 @@
 package main.java.spirit1292.projectSilia.procedures;
 
 import java.awt.*;
-import static main.java.spirit1292.projectSilia.settings.SystemMessages.SCREEN_RES_TEXT;
+import static main.java.spirit1292.projectSilia.references.SystemMessages.SCREEN_RES_TEXT;
 
 public class ScreenResolution
 {

@@ -1,4 +1,12 @@
 package main.java.spirit1292.projectSilia.listeners.WindowMain;
 
-public class WindowMainItemListeners {
+import java.awt.event.ItemEvent;
+import java.awt.event.ItemListener;
+
+public class WindowMainItemListeners implements ItemListener {
+
+    @Override
+    public void itemStateChanged(ItemEvent e) {
+
+    }
 }

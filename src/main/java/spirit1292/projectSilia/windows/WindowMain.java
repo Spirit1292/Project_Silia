@@ -2,17 +2,17 @@ package main.java.spirit1292.projectSilia.windows;
 
 import main.java.spirit1292.projectSilia.Project_Silia;
 import main.java.spirit1292.projectSilia.listeners.WindowMain.WindowMainActionListeners;
-import main.java.spirit1292.projectSilia.listeners.WindowMain.WindowMainListeners;
+import main.java.spirit1292.projectSilia.listeners.WindowMain.WindowMainWindowListeners;
+import main.java.spirit1292.projectSilia.procedures.AppLang;
 import main.java.spirit1292.projectSilia.procedures.Message;
 import main.java.spirit1292.projectSilia.procedures.ScreenResolution;
 import main.java.spirit1292.projectSilia.procedures.StatusBar;
-import main.java.spirit1292.projectSilia.settings.AppLang;
 
 import javax.swing.*;
 import java.awt.*;
 
-import static main.java.spirit1292.projectSilia.settings.Reference.*;
-import static main.java.spirit1292.projectSilia.settings.SystemMessages.*;
+import static main.java.spirit1292.projectSilia.references.Reference.*;
+import static main.java.spirit1292.projectSilia.references.SystemMessages.*;
 
 public class WindowMain extends JFrame {
     public static StatusBar statusBar;
@@ -73,13 +73,11 @@ public class WindowMain extends JFrame {
     public void ActionListeners()
     {
         //~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
-        try
-        {
+        try {
             exit.addActionListener(WindowMainActionListeners.exit);
-                new Message().ShowDebugStandart(WIN_MAIN_ADD_ACTION_LISTENERS_DONE, null);
+            new Message().ShowDebugStandart(WIN_MAIN_ADD_ACTION_LISTENERS_DONE, null);
         }
-        catch (Exception ex)
-        {
+        catch (Exception ex) {
             new Message().Show(WIN_MAIN_ADD_ACTION_LISTENERS_ERROR, ex);
         }
         //~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
@@ -90,7 +88,7 @@ public class WindowMain extends JFrame {
         //~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
         try
         {
-            super.addWindowListener(new WindowMainListeners());
+            super.addWindowListener(new WindowMainWindowListeners());
                 new Message().ShowDebugStandart(WIN_MAIN_ADD_WINDOW_LISTENERS_DONE, null);
         }
         catch (Exception ex)

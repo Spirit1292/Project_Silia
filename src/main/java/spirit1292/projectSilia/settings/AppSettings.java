@@ -2,8 +2,8 @@ package main.java.spirit1292.projectSilia.settings;
 
 public class AppSettings {
     //Включение режима отладки
-    public static Boolean DEBUG_MODE_STANDART = false;
-    public static Boolean DEBUG_MODE_EXTENDED = false;
+    public static Boolean DEBUG_MODE_STANDART = true;
+    public static Boolean DEBUG_MODE_EXTENDED = true;
 
     //Новые настройки языка
     //public static final String SETTING_LANGUAGE = "en_US";

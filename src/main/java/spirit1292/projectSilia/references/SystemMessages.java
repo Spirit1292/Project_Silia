@@ -1,4 +1,4 @@
-package main.java.spirit1292.projectSilia.settings;
+package main.java.spirit1292.projectSilia.references;
 
 public class SystemMessages
 {
@@ -38,7 +38,7 @@ public class SystemMessages
     public static final String WIN_MAIN_CREATED = "Main window is created";
     public static final String WIN_MAIN_ERROR = "ERROR: something wrong in main window calling!!!";
 
-    //WindowMainListeners.java
+    //WindowMainWindowListeners.java
     public static final String WIN_MAIN_LISTENERS_OPENED = "Main window is opened";
     public static final String WIN_MAIN_LISTENERS_CLOSING = "Main window is closing";
     public static final String WIN_MAIN_LISTENERS_CLOSED = "Main window is closed";

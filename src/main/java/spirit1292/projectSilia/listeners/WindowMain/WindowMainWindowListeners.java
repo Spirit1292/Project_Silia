@@ -6,9 +6,9 @@ import main.java.spirit1292.projectSilia.procedures.Message;
 import java.awt.event.WindowEvent;
 import java.awt.event.WindowListener;
 
-import static main.java.spirit1292.projectSilia.settings.SystemMessages.*;
+import static main.java.spirit1292.projectSilia.references.SystemMessages.*;
 
-public class WindowMainListeners implements WindowListener {
+public class WindowMainWindowListeners implements WindowListener {
     @Override
     public void windowOpened(WindowEvent e)
     {
@@ -19,7 +19,7 @@ public class WindowMainListeners implements WindowListener {
     public void windowClosing(WindowEvent e)
     {
             new Message().ShowDebugExtended(WIN_MAIN_LISTENERS_CLOSING, null);
-        Close.main(null);
+        Close.main();
     }
 
     @Override

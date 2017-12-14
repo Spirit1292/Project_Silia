@@ -1,9 +1,11 @@
-package main.java.spirit1292.projectSilia.settings;
+package main.java.spirit1292.projectSilia.procedures;
 
-import main.java.spirit1292.projectSilia.procedures.Message;
+import main.java.spirit1292.projectSilia.references.Reference;
+
 import javax.swing.*;
+
+import static main.java.spirit1292.projectSilia.references.SystemMessages.*;
 import static main.java.spirit1292.projectSilia.settings.AppSettings.DEBUG_MODE_EXTENDED;
-import static main.java.spirit1292.projectSilia.settings.SystemMessages.*;
 
 public class LookAndFeel {
     public static void main(String[] args) {

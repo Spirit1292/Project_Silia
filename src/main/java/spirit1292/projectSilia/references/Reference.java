@@ -1,4 +1,4 @@
-package main.java.spirit1292.projectSilia.settings;
+package main.java.spirit1292.projectSilia.references;
 
 public class Reference
 {

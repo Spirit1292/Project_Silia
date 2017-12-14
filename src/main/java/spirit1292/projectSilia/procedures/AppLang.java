@@ -1,4 +1,7 @@
-package main.java.spirit1292.projectSilia.settings;
+package main.java.spirit1292.projectSilia.procedures;
+
+import main.java.spirit1292.projectSilia.references.Reference;
+import main.java.spirit1292.projectSilia.settings.AppSettings;
 
 import java.util.Locale;
 import java.util.ResourceBundle;

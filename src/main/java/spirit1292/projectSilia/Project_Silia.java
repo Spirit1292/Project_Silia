@@ -3,13 +3,13 @@ package main.java.spirit1292.projectSilia;
 import main.java.spirit1292.projectSilia.procedures.Message;
 import main.java.spirit1292.projectSilia.procedures.ScreenResolution;
 import main.java.spirit1292.projectSilia.settings.AppSettings;
-import main.java.spirit1292.projectSilia.settings.LookAndFeel;
+import main.java.spirit1292.projectSilia.procedures.LookAndFeel;
 import main.java.spirit1292.projectSilia.windows.WindowMain;
 
 import javax.swing.*;
 
-import static main.java.spirit1292.projectSilia.settings.SystemMessages.PROJECT_ERROR;
-import static main.java.spirit1292.projectSilia.settings.SystemMessages.PROJECT_READY;
+import static main.java.spirit1292.projectSilia.references.SystemMessages.PROJECT_ERROR;
+import static main.java.spirit1292.projectSilia.references.SystemMessages.PROJECT_READY;
 
 public class Project_Silia {
     public static JFrame WindowMain;

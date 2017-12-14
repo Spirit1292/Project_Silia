@@ -5,8 +5,8 @@ import java.util.Date;
 
 import static main.java.spirit1292.projectSilia.settings.AppSettings.DEBUG_MODE_EXTENDED;
 import static main.java.spirit1292.projectSilia.settings.AppSettings.DEBUG_MODE_STANDART;
-import static main.java.spirit1292.projectSilia.settings.SystemMessages.MESSAGE_ERROR;
-import static main.java.spirit1292.projectSilia.settings.SystemMessages.MESSAGE_TITLE;
+import static main.java.spirit1292.projectSilia.references.SystemMessages.MESSAGE_ERROR;
+import static main.java.spirit1292.projectSilia.references.SystemMessages.MESSAGE_TITLE;
 
 public class Message
 {
